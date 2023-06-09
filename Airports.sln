@@ -8,17 +8,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{71CD4CC9-3218-4423-9307-A698F3303D4E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Application", "src\Airports.Application\Airports.Application.csproj", "{94E47C4F-0EE1-4B69-A9E3-F8241AFCA779}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761} = {B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761}
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.WebApi", "src\Airports.WebApi\Airports.WebApi.csproj", "{F7AE1519-F880-40C0-9B36-A88C373A9D58}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Domain.Core", "src\Domain\Core\Airports.Domain.Core.csproj", "{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Infrastructure", "src\Airports.Infrastructure\Airports.Infrastructure.csproj", "{B28FFFE8-7793-4ADE-B9B7-E25A35082062}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Domain", "src\Domain\Airports.Domain\Airports.Domain.csproj", "{B863DE35-546E-47DD-ADD9-A51C80949E9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Domain.Core", "src\Domain\Core\Airports.Domain.Core.csproj", "{4A4B3DB4-BC18-4418-B390-5121F9AC3FF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +31,6 @@ Global
 		{F7AE1519-F880-40C0-9B36-A88C373A9D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7AE1519-F880-40C0-9B36-A88C373A9D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7AE1519-F880-40C0-9B36-A88C373A9D58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B28FFFE8-7793-4ADE-B9B7-E25A35082062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B28FFFE8-7793-4ADE-B9B7-E25A35082062}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28FFFE8-7793-4ADE-B9B7-E25A35082062}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,6 +39,10 @@ Global
 		{B863DE35-546E-47DD-ADD9-A51C80949E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B863DE35-546E-47DD-ADD9-A51C80949E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B863DE35-546E-47DD-ADD9-A51C80949E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4B3DB4-BC18-4418-B390-5121F9AC3FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4B3DB4-BC18-4418-B390-5121F9AC3FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4B3DB4-BC18-4418-B390-5121F9AC3FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4B3DB4-BC18-4418-B390-5121F9AC3FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,9 +51,9 @@ Global
 		{71CD4CC9-3218-4423-9307-A698F3303D4E} = {98CF41AD-FCF6-414E-9CB1-DE6078D9C48F}
 		{94E47C4F-0EE1-4B69-A9E3-F8241AFCA779} = {98CF41AD-FCF6-414E-9CB1-DE6078D9C48F}
 		{F7AE1519-F880-40C0-9B36-A88C373A9D58} = {98CF41AD-FCF6-414E-9CB1-DE6078D9C48F}
-		{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761} = {71CD4CC9-3218-4423-9307-A698F3303D4E}
 		{B28FFFE8-7793-4ADE-B9B7-E25A35082062} = {98CF41AD-FCF6-414E-9CB1-DE6078D9C48F}
 		{B863DE35-546E-47DD-ADD9-A51C80949E9F} = {71CD4CC9-3218-4423-9307-A698F3303D4E}
+		{4A4B3DB4-BC18-4418-B390-5121F9AC3FF1} = {71CD4CC9-3218-4423-9307-A698F3303D4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38C28B10-E52C-446E-A4C8-1BFE28B5EC79}
