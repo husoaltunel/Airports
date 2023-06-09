@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Airports.Infrastructure\Airports.Infrastructure.csproj" />
-    <ProjectReference Include="..\src\Domain\Core\Core.csproj" />
+    <ProjectReference Include="..\Airports.Application\Airports.Application.csproj" />
+    <ProjectReference Include="..\Domain\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>

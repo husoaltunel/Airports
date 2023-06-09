@@ -1,12 +1,7 @@
 ﻿using Airports.Application.Result;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Airports.Infrastructure.CQRS.AirportDistances.Queries
+namespace Airports.Application.CQRS.Airports.Queries
 {
     public class GetDistanceByIATACodesQuery : IRequest<Result<double>>
     {

@@ -1,8 +1,8 @@
 ﻿using Airports.Application.CQRS.Airports.Helpers;
+using Airports.Application.CQRS.Airports.Queries;
 using Airports.Application.Dto;
 using Airports.Application.Helpers;
 using Airports.Application.Result;
-using Airports.Infrastructure.CQRS.AirportDistances.Queries;
 using Airports.Infrastructure.CQRS.Airports;
 using MediatR;
 using Microsoft.Extensions.Configuration;

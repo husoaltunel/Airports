@@ -1,5 +1,5 @@
-﻿using Airports.Application.Dto;
-using Airports.Infrastructure.CQRS.AirportDistances.Queries;
+﻿using Airports.Application.CQRS.Airports.Queries;
+using Airports.Application.Dto;
 using AutoMapper;
 using System;
 using System.Collections.Generic;

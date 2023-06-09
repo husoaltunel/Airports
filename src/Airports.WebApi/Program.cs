@@ -1,4 +1,4 @@
-using Airports.Infrastructure;
+using Airports.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 

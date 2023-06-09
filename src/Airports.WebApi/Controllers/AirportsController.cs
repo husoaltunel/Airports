@@ -1,7 +1,6 @@
-﻿using Airports.Application.Result;
-using Airports.Infrastructure.CQRS.AirportDistances.Queries;
+﻿using Airports.Application.CQRS.Airports.Queries;
+using Airports.Application.Result;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Airports.WebApi.Controllers
