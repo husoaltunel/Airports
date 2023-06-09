@@ -1,28 +1,20 @@
-﻿using Airports.Application.Dto;
+﻿using Airports.Application.CQRS.Airports.Helpers;
+using Airports.Application.Dto;
 using Airports.Application.Helpers;
 using Airports.Application.Result;
-using Airports.Domain.Models;
 using Airports.Infrastructure.CQRS.AirportDistances.Queries;
 using Airports.Infrastructure.CQRS.Airports;
-using Airports.Infrastructure.CQRS.Airports.Helpers;
 using MediatR;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace Airports.Infrastructure.CQRS.AirportDistances.Handlers
+namespace Airports.Application.CQRS.Airports.Handlers
 {
     public class GetDistanceByIATACodesHandler : IRequestHandler<GetDistanceByIATACodesQuery, Result<double>>
     {
         private static IConfiguration _config;
         public GetDistanceByIATACodesHandler(IConfiguration config)
         {
-            _config= config;
+            _config = config;
         }
         public async Task<Result<double>> Handle(GetDistanceByIATACodesQuery request, CancellationToken cancellationToken)
         {

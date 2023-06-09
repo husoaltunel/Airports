@@ -1,18 +1,11 @@
 ﻿using Airports.Application.Dto;
 using Airports.Application.Result;
 using Airports.Domain.Models;
-using Airports.Infrastructure.CQRS.AirportDistances.Queries;
-using MediatR;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace Airports.Infrastructure.CQRS.Airports.Helpers
+namespace Airports.Application.CQRS.Airports.Helpers
 {
     public static class AirportsHelper
     {
@@ -47,7 +40,7 @@ namespace Airports.Infrastructure.CQRS.Airports.Helpers
 
                     using var reader = new StreamReader(webStream);
                     var data = reader.ReadToEnd();
-                    var options = new JsonSerializerOptions{ PropertyNameCaseInsensitive = true };
+                    var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
                     var airport = JsonSerializer.Deserialize<AirportDto>(data, options);
 
                     if (airport != null)

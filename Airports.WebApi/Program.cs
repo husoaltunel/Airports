@@ -1,11 +1,9 @@
 using Airports.Infrastructure;
-using Airports.Infrastructure.CQRS.AirportDistances.Handlers;
-using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var assembly = AppDomain.CurrentDomain.Load("Airports.Infrastructure");
+var assembly = AppDomain.CurrentDomain.Load("Airports.Application");
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(assembly));
 builder.Services.AddAutoMapper(typeof(Program));
 ServicesConfiguration.AddCustomServices(builder.Services);

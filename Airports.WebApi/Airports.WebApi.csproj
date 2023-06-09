@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Airports.Infrastructure\Airports.Infrastructure.csproj" />
+    <ProjectReference Include="..\src\Domain\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>
