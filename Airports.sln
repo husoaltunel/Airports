@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Application", "src
 		{B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761} = {B1CF9DD1-50B9-45CB-9DE9-31C09F5A4761}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Domain.Domain", "src\Airports.Domain\Airports.Domain.Domain.csproj", "{BAB63B83-B811-4CBD-912A-2A97FFC52CD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.Domain", "src\Airports.Domain\Airports.Domain.csproj", "{BAB63B83-B811-4CBD-912A-2A97FFC52CD8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Airports.WebApi", "src\Airports.WebApi\Airports.WebApi.csproj", "{F7AE1519-F880-40C0-9B36-A88C373A9D58}"
 EndProject
